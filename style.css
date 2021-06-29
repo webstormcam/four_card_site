@@ -99,3 +99,38 @@ img{
     display: inline-block;
     align-self: flex-end;
 }
+
+
+@media  screen and (min-width: 1440px) {
+    #columns{
+        position: relative;
+        width: 1000px;
+    }
+
+    
+
+    .red{
+        position: absolute;
+        top: -50px;
+    }
+
+    .cyan{
+        position: absolute;
+        left: 0px;
+        top: 50px;
+       
+    }
+
+    .blue{
+        position: absolute;
+        right: 0px;
+        top: 50px;
+    
+    }
+
+    .yellow{
+        position: absolute;
+        top: 220px;
+        
+    }
+}
