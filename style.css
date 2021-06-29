@@ -102,35 +102,52 @@ img{
 
 
 @media  screen and (min-width: 1440px) {
+    
+    header{
+        width: 1000px;
+    }
+
+    header h1{
+        font-size: 40px;
+    }
+
+    header p{
+        width: 600px;
+    }
+    
+    
     #columns{
+        margin-top: 80px;
         position: relative;
         width: 1000px;
     }
+
+
 
     
 
     .red{
         position: absolute;
-        top: -50px;
+        top: -70px;
     }
 
     .cyan{
         position: absolute;
-        left: 0px;
+        left: -10px;
         top: 50px;
        
     }
 
     .blue{
         position: absolute;
-        right: 0px;
+        right: -10px;
         top: 50px;
     
     }
 
     .yellow{
         position: absolute;
-        top: 220px;
+        top: 200px;
         
     }
 }
